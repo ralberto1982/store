@@ -1,0 +1,26 @@
+:root {
+    --primaryColor: #473198;
+    --secongColor: #4a0d67;
+    --mintGreen: #daffed;
+    --iceBlue: #9bf3f0;
+    --lightGreen: #adfc92;
+    --negro: #000000;
+    --white: #ffffff;
+}
+
+h1 {
+    color: var(--secongColor);
+}
+
+h1 span {
+    color: var(--primaryColor);
+}
+
+/* GLOBALES */
+.textCenter {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
