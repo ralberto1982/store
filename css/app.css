@@ -12,15 +12,42 @@ h1 {
     color: var(--secongColor);
 }
 
+img {
+    display: block;
+}
+
 h1 span {
     color: var(--primaryColor);
 }
 
 /* GLOBALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .textCenter {
     text-align: center;
 }
 
 h1 {
     font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+a {
+    text-decoration: none;
 }
