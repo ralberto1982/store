@@ -8,22 +8,13 @@
     --white: #ffffff;
 }
 
-h1 {
-    color: var(--secongColor);
-}
 
-img {
-    display: block;
-}
-
-h1 span {
-    color: var(--primaryColor);
-}
 
 /* GLOBALES */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+
 }
 
 *,
@@ -32,22 +23,136 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
 .textCenter {
     text-align: center;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 a {
     text-decoration: none;
+    color: var(--negro);
+}
+
+h1 {
+    color: var(--secongColor);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 span {
+    color: var(--primaryColor);
+}
+
+
+
+.nombre-sitio {
+    margin-block: 5rem;
+
+}
+
+.contenedor {
+    /* margin-inline: auto; */
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+.borde {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+.navegacion a {
+    font-size: 2rem;
+
+}
+
+.hero {
+    height: 50rem;
+    background-image: url(/img/hero1.webp);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.titulos {
+    margin-block: 5rem;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+
+.categoria a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    font-size: 2rem;
+    border-radius: 0 0 1rem 1rem;
+
+}
+
+.categoria a:hover {
+    opacity: 0.9;
+    transition: opacity 300ms ease;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+
+}
+
+.texto-nosotros {
+    grid-column: 2/3;
+    padding: 2rem;
+    color: var(--white);
+}
+
+.about {
+    background-image: linear-gradient(to right, transparent 50%, var(--secongColor) 50%, var(--secongColor) 100%), url(../img/nostrosala.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    margin-top: 20rem;
 }

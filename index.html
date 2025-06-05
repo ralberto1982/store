@@ -4,50 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
     <title>Store</title>
 </head>
 
 <body>
     <header>
-        <h1 class="textCenter">STORE<span> SEDAEDAEL</span></h1>
+        <h1 class="textCenter nombre-sitio">STORE<span> SEDAEDAEL</span></h1>
     </header>
+    <div class="borde">
+        <nav class="navegacion nav-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Store</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
 
-    <nav class="navegacion">
-        <a href="#">Inicio</a>
-        <a href="#">Store</a>
-        <a href="#">About us</a>
-        <a href="#">Contact</a>
-    </nav>
+        </nav>
+    </div>
 
-    <section>
 
-        <h2 class="textCenter">Categrias</h2>
-        <div>
-            <img src="/img/categoria1.jpg" alt="">
-            <a href="#">Oficina</a>
+    <div class="hero"></div>
+
+    <section class="contenedor">
+
+        <h2 class="textCenter titulos">Categorias</h2>
+        <div class="categorias">
+            <div class="categoria">
+                <img src="/img/categoria1.jpg" alt="">
+                <a href="#">Oficina</a>
+            </div>
+            <div class="categoria">
+                <img src="/img/categoria2.jpg" alt="">
+                <a href="#">Hogar</a>
+            </div>
+            <div class="categoria">
+                <img src="/img/categoria3.jpg" alt="">
+                <a href="#">Cocina</a>
+            </div>
         </div>
-        <div>
-            <img src="/img/categoria2.jpg" alt="">
-            <a href="#">Hogar</a>
-        </div>
-        <div>
-            <img src="/img/categoria3.jpg" alt="">
-            <a href="#">Cocina</a>
+    </section>
+
+    <section class="about ">
+
+        <div class="about_us about-grid ">
+            <div class="texto-nosotros">
+                <h2 class="textCenter  ">About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                    esse eos ipsa culpa minus illo maiores vel iusto deleniti ducimus tenetur, eligendi
+                    perferendis nesciunt est ex! At ducimus vitae qui.</p>
+            </div>
         </div>
 
     </section>
 
-    <section>
-        <h2 class="textCenter">About us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            esse eos ipsa culpa minus illo maiores vel iusto deleniti ducimus tenetur, eligendi
-            perferendis nesciunt est ex! At ducimus vitae qui.</p>
-    </section>
 
-
-    <main>
-        <h2 class="textCenter">Productos</h2>
+    <main class="contenedor">
+        <h2 class="textCenter titulos ">Productos</h2>
         <div>
             <div>
                 <img src="/img/producto1.jpg" alt="">
